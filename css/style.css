@@ -1,0 +1,53 @@
+body{
+    background-color: lightgreen;
+}
+.generate {
+    background-color: lightblue;
+    padding: 25px 50px;
+    border-radius: 20px;
+    font-size: large;
+    color: black;
+    margin: 10px;
+    align-self: center;
+}
+.title {
+    font-size: larger;
+}
+.nik {
+    margin: 15px;
+    font-size: 60px;
+}
+.schet {
+    background-color: orange;
+    border-radius: 10px;
+    border: solid #e99;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: large;
+     
+}
+.card {
+    margin-bottom: 15px;
+    background-size: cover;
+    width:170px;
+    height:245px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+@media (max-width: 580px) {
+    .flex-container {
+        flex-direction: column;
+      }
+}
